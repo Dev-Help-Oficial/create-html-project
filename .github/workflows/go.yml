@@ -26,8 +26,15 @@ jobs:
           go mod init create-html-project
         fi
 
+    - name: Create build directory
+      run: mkdir -p ./build
+
     - name: Build
-      run: go build -o ./build/create-html-project ./main.go
+      run: |
+        if [ -f ./build/create-html-project ]; then
+          mv -f ./build/create-html-project ./build/create-html-project.old
+        fi
+        go build -o ./build/create-html-project ./main.go
 
     - name: Test
       run: go test -v ./...
