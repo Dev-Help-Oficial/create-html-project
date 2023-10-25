@@ -1,0 +1,25 @@
+
+	body {
+		background: linear-gradient(to bottom, #fffefe, #b6b6ff);
+		background-attachment: fixed;
+	}
+
+   .info-card {
+		background: transparent;
+		cursor: pointer;
+
+	}
+
+	.info-card:hover {
+		border: 1px solid;
+	}
+
+	.info-card .arrow {
+		display: inline-block;
+		margin-left: 5px;
+		transition: transform 0.3s;
+	}
+
+	.info-card:hover .arrow {
+		transform: translateX(5px);
+	}
