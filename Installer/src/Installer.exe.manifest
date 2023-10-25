@@ -3,10 +3,10 @@
   <assemblyIdentity
     version="1.0.0.0"
     processorArchitecture="*"
-    name="CompanyName.ProductName.YourApplication"
+    name="Dev-Help.create-html-project.create-html-project"
     type="win32"
   />
-  <description>Your Application Description</description>
+  <description>create-html-project</description>
   <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
     <security>
       <requestedPrivileges>
