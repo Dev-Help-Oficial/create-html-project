@@ -20,6 +20,13 @@ jobs:
       with:
         go-version: '1.21'
 
+    - name: Check for Go module
+      run: |
+        if [ ! -f ./src/go.mod ]; then
+          cd ./src
+          go mod init nome-do-modulo
+          cd ..
+        fi
 
     - name: Build
       run: go build -o ./bin/main.exe ./src
