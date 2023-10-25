@@ -24,7 +24,7 @@ jobs:
       run: |
         if [ ! -f ./src/go.mod ]; then
           cd ./src
-          go mod init nome-do-modulo
+          go mod init create-html-project
           cd ..
         fi
 
