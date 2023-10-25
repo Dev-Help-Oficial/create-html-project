@@ -21,7 +21,7 @@ jobs:
         go-version: '1.21'
 
     - name: Build
-      run: go build -o ./bin/main.exe ./src
+      run: go build -o ./bin/main.exe -mod=mod ./src
 
     - name: Test
-      run: go test -v ./src
+      run: go test -v -mod=mod ./src
