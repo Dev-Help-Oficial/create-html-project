@@ -22,14 +22,12 @@ jobs:
 
     - name: Check for Go module
       run: |
-        if [ ! -f ./src/go.mod ]; then
-          cd ./src
+        if [ ! -f ./go.mod ]; then
           go mod init create-html-project
-          cd ..
         fi
 
     - name: Build
-      run: go build -o ./bin/main.exe ./src
+      run: go build -o ./build/create-html-project ./main.go
 
     - name: Test
-      run: go test -v ./src
+      run: go test -v ./...
