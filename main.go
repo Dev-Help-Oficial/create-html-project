@@ -10,11 +10,11 @@ func main() {
 	var targetDir string
 	var projectName string
 
-	// Verifique se o usuário forneceu um nome de pasta como argumento
+	// Verifica se o usuário forneceu um nome de pasta como argumento
 	if len(os.Args) > 1 {
 		projectName = os.Args[1]
 	} else {
-		projectName = "meu-projeto" // Nome padrão
+		projectName = "meu-projeto" // Nome padrão caso o usuário não especifique
 	}
 
 	// Verifique se o usuário deseja criar a pasta na pasta de trabalho atual
@@ -24,14 +24,14 @@ func main() {
 		targetDir = projectName
 	}
 
-	// Crie a pasta do projeto
+	// Cria a pasta do projeto
 	err := os.Mkdir(targetDir, 0755)
 	if err != nil {
 		fmt.Println("Erro ao criar a pasta do projeto:", err)
 		return
 	}
 
-	// Crie as pastas 'css' e 'js'
+	// Cria as pastas 'css' e 'js'
 	cssDir := filepath.Join(targetDir, "css")
 	jsDir := filepath.Join(targetDir, "js")
 
@@ -47,7 +47,7 @@ func main() {
 		return
 	}
 
-	// Crie o arquivo index.html
+	// Cria o arquivo index.html
 	indexHTML := filepath.Join(targetDir, "index.html")
 	file, err := os.Create(indexHTML)
 	if err != nil {
@@ -150,7 +150,6 @@ func main() {
 		fmt.Println("Erro ao escrever no arquivo style.css:", err)
 	}
 
-	// Crie o arquivo script.js (você pode adicionar conteúdo posteriormente)
 	scriptJS := filepath.Join(jsDir, "script.js")
 	jsFile, err := os.Create(scriptJS)
 	if err != nil {
