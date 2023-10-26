@@ -3,7 +3,7 @@ Crie projetos HTML e Bootstrap de forma rápida e prática.
 
 
 ## Como usar?
-Baixe o nosso instalador automático(O qual ainda está em sua versão beta) e instale o programa. Feito isso, você pode abrir seu terminal de preferência (Prompt de Comando do Windows, Powershell, Console do Visual Studio Code, etc) e digitar o comando ```create-html-project``` digitando este comando sem passar nenhum argumento, será criado uma pasta com o nome padrão de "Meu-projeto" onde você terá um tema boilerplate pronto para uso com arquivos CSS, JS já prontos e com o Bootstrap e Font Awesome já incluídos no arquivo HTML.
+Baixe o nosso [instalador automático](https://github.com/Dev-Help-Oficial/create-html-project/releases/download/1.0-b/Auto-instalador.rar)(O qual ainda está em sua versão beta) e instale o programa. Feito isso, você pode abrir seu terminal de preferência (Prompt de Comando do Windows, Powershell, Console do Visual Studio Code, etc) e digitar o comando ```create-html-project``` digitando este comando sem passar nenhum argumento, será criado uma pasta com o nome padrão de "Meu-projeto" onde você terá um tema boilerplate pronto para uso com arquivos CSS, JS já prontos e com o Bootstrap e Font Awesome já incluídos no arquivo HTML.
 
 Exemplo de uso:
 ```
