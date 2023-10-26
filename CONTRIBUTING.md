@@ -8,7 +8,7 @@ Na aba de [Issues](https://github.com/Dev-Help-Oficial/create-html-project/issue
 
 Observação: Escreva em Português legível e também coloque Labels(Etiqueta) no Issue, caso for uma sugestão de melhoria, marque o Issue com a Label(Etiqueta) "Enhancement" e caso for um bug marque com a Label(Etiqueta) "Bug".
 
-### Pull Requests
-Na aba de [Issues](https://github.com/Dev-Help-Oficial/create-html-project/pulls) você pode sugerir alterações no código do software.
+### Pull requests
+Na aba de [Pull requests](https://github.com/Dev-Help-Oficial/create-html-project/pulls) você pode sugerir alterações no código do software.
 
-Obsvervação: Descreva em Português legível quais alterações o seu Pull Request sugere, credite todos os contribuidores(Caso hajam múltiplos contribuidores para esse Pull Request). Tente organizar seu código o máximo o possível, seguindo as convenções de código da linguagem de programação que você estiver utilizando.
+Obsvervação: Descreva em Português legível quais alterações o seu Pull request sugere, credite todos os contribuidores(Caso hajam múltiplos contribuidores para esse Pull request). Tente organizar seu código o máximo o possível, seguindo as convenções de código da linguagem de programação que você estiver utilizando.
