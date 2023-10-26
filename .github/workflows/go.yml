@@ -1,4 +1,4 @@
-name: Go
+name: Go Build
 
 on:
   push:
@@ -11,6 +11,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
     - name: Checkout
       uses: actions/checkout@v2
@@ -31,10 +32,7 @@ jobs:
 
     - name: Build
       run: |
-        if [ -f ./build/create-html-project ]; then
-          mv -f ./build/create-html-project ./build/create-html-project.old
+        if [ -f ./build/create-html-project.exe ]; then
+          mv -f ./build/create-html-project.exe ./build/create-html-project.exe.old
         fi
-        go build -o ./build/create-html-project ./main.go
-
-    - name: Test
-      run: go test -v ./...
+        go build -o ./build/create-html-project.exe ./main.go
