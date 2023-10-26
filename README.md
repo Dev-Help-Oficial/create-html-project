@@ -27,5 +27,5 @@ Cria uma pasta com o nome de "teste" onde os arquivos básicos para o desenvolvi
 E pronto, o programa deve ter sido compilado.
 
 ## Como contribuir?
-Cheque o arquivo [CONTRIBUTING.md](https://github.com/Dev-Help-Oficial/create-html-project/edit/main/CONTRIBUTING.md) para mais informações.
+Cheque o arquivo [CONTRIBUTING.md](https://github.com/Dev-Help-Oficial/create-html-project/blob/main/CONTRIBUTING.md) para mais informações.
 
