@@ -1,4 +1,4 @@
-﻿#include "Installer.h"
+#include "Installer.h"
 
 
 bool DownloadFile(const wchar_t* url, const wchar_t* destination) {
@@ -58,7 +58,7 @@ int main() {
     if (SUCCEEDED(SHGetFolderPathW(NULL, CSIDL_APPDATA, NULL, 0, appDataFolder))) {
         std::wstring createHtmlProjectDir = std::wstring(appDataFolder) + L"\\create-html-project";
         std::wstring downloadPath = createHtmlProjectDir + L"\\create-html-project.exe";
-        const wchar_t* githubUrl = L"https://raw.githubusercontent.com/Dev-Help-Oficial/create-html-project/main/bin/create-html-project.exe";
+        const wchar_t* githubUrl = L"https://raw.githubusercontent.com/Dev-Help-Oficial/create-html-project/main/build/create-html-project.exe";
 
         if (CreateDirectoryW(createHtmlProjectDir.c_str(), NULL) || GetLastError() == ERROR_ALREADY_EXISTS) {
             std::wcout << L"Pasta 'create-html-project' criada ou já existe." << std::endl;
